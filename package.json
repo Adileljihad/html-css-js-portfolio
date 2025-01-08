@@ -1,0 +1,26 @@
+{
+  "name": "html-css-js-portfolio",
+  "version": "1.0.0",
+  "description": "> Simple portfolio",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write .",
+    "lint:ls": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "lint:md": "markdownlint **/*.md",
+    "lint:css": "stylelint **/*.css",
+    "validate:html": "html-validator --file=index.html",
+    "spell-check": "cspell '**/*'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adileljihad/html-css-js-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Adileljihad/html-css-js-portfolio/issues"
+  },
+  "homepage": "https://github.com/Adileljihad/html-css-js-portfolio#readme"
+}
